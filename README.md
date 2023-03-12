@@ -5,9 +5,9 @@ Un tutorial práctico de Git y GitHub!
 Git es un sistema descentralizado de control de versiones de código abierto y grtuito.  
 Veamos qué significa todo esto.  
 Git es un **sistema**. Esto significa que Git posee un conjunto de funcionalidades que 
-permiten un flujo de trabajo organizado para un fin específico.
+permiten un flujo de trabajo organizado para un fin específico.  
 Git es **descentralizado**. Esto significa que Git permite el trabajo en conjunto sin la 
-necesidad de mantener un único registro centralizado.
+necesidad de mantener un único registro centralizado.  
 Git permite **controlar versiones** de nuestro código/proyecto. Esto quiere decir que 
 Git "mira" nuestro código y registra los cambios que ocurren en éste de forma eficiente.  
 ### ¿Qué es GitHub?

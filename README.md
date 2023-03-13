@@ -44,22 +44,22 @@ Con esto Git crea un nuevo repositorio con el mismo nombre que nuestra carpeta. 
 mirará todos los cambios que ocurran dentro de ella.  
 Supongamos que iniciamos a escribir código, por ejemplo, una sencilla calculadora en 
 Python. Digamos que vamos a hacer primero un programa que lea dos números y los sume:
->def suma():
-    a = 0
-    b = 0
-    while(True):
-        try:
-            a = int(input("Ingrese un nro: "))
-            b = int(input("Ingrese otro nro: "))
-            break
-        except:
-            print("[ERROR] Datos incorrectos.")
-            input("Presione ENTER para continuar...")
-            continue
-    return a + b
+>def suma():  
+    a = 0  
+    b = 0  
+    while(True):  
+        try:  
+            a = int(input("Ingrese un nro: "))  
+            b = int(input("Ingrese otro nro: "))  
+            break  
+        except:  
+            print("[ERROR] Datos incorrectos.")  
+            input("Presione ENTER para continuar...")  
+            continue  
+    return a + b  
 >
 Ahora vamos a hacer un commit. Para ello debemos configurar Git como sigue:
->git config --global user.name "Jakku Night"
+>git config --global user.name "Jakku Night"  
 git config --global user.email "j97k107u45k117n@gmail.com"
 >
 En este caso, mi nombre de usuario (user.name) es "Jakku Night", y mi correo electrónico 
